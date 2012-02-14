@@ -1,0 +1,107 @@
+﻿<phone:PhoneApplicationPage 
+    x:Class="Zub_App.DetailsPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:toolkit="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone.Controls.Toolkit"
+    mc:Ignorable="d" d:DesignWidth="480" d:DesignHeight="696" 
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait"  Orientation="Portrait" 
+    shell:SystemTray.IsVisible="True">
+
+    <toolkit:TransitionService.NavigationInTransition>
+        <toolkit:NavigationInTransition>
+            <toolkit:NavigationInTransition.Backward>
+                <toolkit:TurnstileTransition Mode="BackwardIn"/>
+            </toolkit:NavigationInTransition.Backward>
+            <toolkit:NavigationInTransition.Forward>
+                <toolkit:TurnstileTransition Mode="ForwardIn"/>
+            </toolkit:NavigationInTransition.Forward>
+        </toolkit:NavigationInTransition>
+    </toolkit:TransitionService.NavigationInTransition>
+    <toolkit:TransitionService.NavigationOutTransition>
+        <toolkit:NavigationOutTransition>
+            <toolkit:NavigationOutTransition.Backward>
+                <toolkit:TurnstileTransition Mode="BackwardOut"/>
+            </toolkit:NavigationOutTransition.Backward>
+            <toolkit:NavigationOutTransition.Forward>
+                <toolkit:TurnstileTransition Mode="ForwardOut"/>
+            </toolkit:NavigationOutTransition.Forward>
+        </toolkit:NavigationOutTransition>
+    </toolkit:TransitionService.NavigationOutTransition>
+    
+    
+	<Grid>
+    
+	<!--Data context is set to sample data above and first item in sample data collection below and LayoutRoot contains the root grid where all other page content is placed-->
+    <Grid x:Name="LayoutRoot"  d:DataContext="{Binding Items[0]}">
+        
+        
+        <Grid.RowDefinitions>
+        	<RowDefinition Height="Auto"/>
+        	<RowDefinition Height="*"/>
+            
+        </Grid.RowDefinitions>
+        <Grid.Background>
+            <ImageBrush ImageSource="images/bg.jpg" Stretch="UniformToFill" />
+        </Grid.Background>
+
+    	<Border BorderBrush="White" BorderThickness="5,0,0,0" Height="41" Margin="28,39,0,0" VerticalAlignment="Top" d:LayoutOverrides="Height"/>
+
+    	<TextBlock x:Name="dueDateText" Style="{StaticResource PhoneTextTitle1Style}" FontSize="24" FontWeight="Bold" FontFamily="Segoe UI Mono" Margin="40,45,1,0" Height="41" VerticalAlignment="Top"/>
+        <!--TitlePanel contains the name of the application and page title-->
+
+    	<TextBlock x:Name="PageTitle" Text="ezNote" Style="{StaticResource PhoneTextNormalStyle}" Margin="8,-3,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Width="72"/>
+        <!--TitlePanel contains the name of the application and page title-->
+		
+    	<StackPanel x:Name="TitlePanel" Grid.Row="0" Margin="17,97,8,82">
+    		<TextBlock x:Name="Title" Text="Title" Style="{StaticResource PhoneTextTitle1Style}" FontSize="21.333" FontWeight="Bold" FontFamily="Segoe UI Semibold" Margin="12,0,0,0" Height="26" HorizontalAlignment="Left" Width="123"/>
+    		<TextBlock x:Name="ListTitle" Text="{Binding noteName}" Margin="16,-8,0,0" Style="{StaticResource PhoneTextTitle1Style}" FontSize="48" Height="74"/>
+    	</StackPanel>
+        <!--ContentPanel contains details text. Place additional content here-->
+    	<Grid x:Name="ContentPanel" Grid.Row="1" Margin="24,-82,0,8">
+    		<TextBlock x:Name="NotesText" Text="Notes" Style="{StaticResource PhoneTextTitle1Style}" FontSize="21.333" FontWeight="Bold" FontFamily="Segoe UI Semibold" Margin="6,0,0,0" Height="27" VerticalAlignment="Top" HorizontalAlignment="Left" Width="67"/>
+    		
+    		<ScrollViewer x:Name="myScroll" HorizontalScrollBarVisibility="Visible" VerticalScrollBarVisibility="Hidden" Margin="5,30,8,8">
+    			<TextBlock x:Name="ContentText" Text="{Binding noteText}"  Margin="0"  Style="{StaticResource PhoneTextTitle3Style}" Foreground="White" TextWrapping="Wrap" LineStackingStrategy="BlockLineHeight" MaxWidth="454" Width="433" RenderTransformOrigin="0.507,0.489" Height="453"/>
+    		</ScrollViewer>
+    	</Grid>         
+                
+            
+        
+        </Grid>
+    <StackPanel HorizontalAlignment="Left" Height="100" VerticalAlignment="Bottom" Width="100" Margin="27,0,0,-155">
+    	<TextBlock x:Name="CreatedText" Text="Date created" Style="{StaticResource PhoneTextTitle1Style}" FontSize="21.333" FontWeight="Bold" FontFamily="Segoe UI Semibold" Margin="12,0,-35,0" Height="26"/>
+    	<TextBlock Height="27" HorizontalAlignment="Left" x:Name="createdDate" Text="{Binding createDate}" Width="283" Margin="26,0,0,0" />
+    </StackPanel>
+	
+<!--Data context is set to sample data above and first item in sample data collection below and LayoutRoot contains the root grid where all other page content is placed-->
+    
+	<!--Data context is set to sample data above and first item in sample data collection below and LayoutRoot contains the root grid where all other page content is placed-->
+        
+           
+        
+        
+        
+       
+
+    </Grid>
+    
+    
+    <phone:PhoneApplicationPage.ApplicationBar>
+        <shell:ApplicationBar IsVisible="True" IsMenuEnabled="True">
+            <shell:ApplicationBarIconButton x:Name="completeButton" IconUri="/Toolkit.Content/ApplicationBar.Check.png" Text="Complete" Click="appbar_Complete_Click"></shell:ApplicationBarIconButton>
+            <shell:ApplicationBarIconButton x:Name="editButton" IconUri="/Images/appbar.edit.rest.png" Text="Edit" Click="appbar_editButton_Click"></shell:ApplicationBarIconButton>
+            <shell:ApplicationBarIconButton x:Name="appbar_button1" IconUri="/Images/appbar.delete.rest.png" Text="Delete" Click="appbar_button1_Click"></shell:ApplicationBarIconButton>
+            <shell:ApplicationBarIconButton x:Name="appbar_button3" IconUri="/Images/appbar.up.rest.png" Text="Upload" Click="appbar_button3_Click"></shell:ApplicationBarIconButton>
+            
+        </shell:ApplicationBar>
+    </phone:PhoneApplicationPage.ApplicationBar>
+    
+
+</phone:PhoneApplicationPage>

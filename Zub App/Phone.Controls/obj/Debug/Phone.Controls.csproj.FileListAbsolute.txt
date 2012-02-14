@@ -1,0 +1,32 @@
+c:\Work\WaitProgressClient\Phone.Controls\Bin\Debug\Phone.Controls.dll
+c:\Work\WaitProgressClient\Phone.Controls\Bin\Debug\Phone.Controls.pdb
+c:\Work\WaitProgressClient\Phone.Controls\obj\Debug\ResolveAssemblyReference.cache
+c:\Work\WaitProgressClient\Phone.Controls\obj\Debug\ProgressDialog.g.i.cs
+c:\Work\WaitProgressClient\Phone.Controls\obj\Debug\Phone.Controls.g.resources
+c:\Work\WaitProgressClient\Phone.Controls\obj\Debug\Phone.Controls.dll
+c:\Work\WaitProgressClient\Phone.Controls\obj\Debug\Phone.Controls.pdb
+C:\Users\alexyak\Downloads\ProgressDialogR1\Phone.Controls\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\alexyak\Downloads\ProgressDialogR1\Phone.Controls\obj\Debug\ProgressDialog.g.i.cs
+C:\Users\alexyak\Downloads\ProgressDialogR1\Phone.Controls\obj\Debug\Phone.Controls.g.resources
+C:\Users\alexyak\Downloads\ProgressDialogR1\Phone.Controls\obj\Debug\Phone.Controls.dll
+C:\Users\alexyak\Downloads\ProgressDialogR1\Phone.Controls\Bin\Debug\Phone.Controls.dll
+C:\Users\alexyak\Downloads\ProgressDialogR1\Phone.Controls\Bin\Debug\Phone.Controls.pdb
+C:\Users\alexyak\Downloads\ProgressDialogR1\Phone.Controls\obj\Debug\Phone.Controls.pdb
+C:\Work\ProgressDialogR1\Phone.Controls\obj\Debug\ResolveAssemblyReference.cache
+C:\Work\ProgressDialogR1\Phone.Controls\obj\Debug\Phone.Controls.g.resources
+C:\Work\ProgressDialogR1\Phone.Controls\obj\Debug\Phone.Controls.dll
+C:\Work\ProgressDialogR1\Phone.Controls\Bin\Debug\Phone.Controls.dll
+C:\Work\ProgressDialogR1\Phone.Controls\Bin\Debug\Phone.Controls.pdb
+C:\Work\ProgressDialogR1\Phone.Controls\obj\Debug\Phone.Controls.pdb
+C:\Users\Rheza\Desktop\progressindicator\Phone.Controls\Bin\Debug\Phone.Controls.dll
+C:\Users\Rheza\Desktop\progressindicator\Phone.Controls\Bin\Debug\Phone.Controls.pdb
+C:\Users\Rheza\Desktop\progressindicator\Phone.Controls\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Rheza\Desktop\progressindicator\Phone.Controls\obj\Debug\Phone.Controls.g.resources
+C:\Users\Rheza\Desktop\progressindicator\Phone.Controls\obj\Debug\Phone.Controls.dll
+C:\Users\Rheza\Desktop\progressindicator\Phone.Controls\obj\Debug\Phone.Controls.pdb
+C:\Users\Rheza\Documents\Visual Studio 2010\Projects\Zub App\Zub App\Phone.Controls\Bin\Debug\Phone.Controls.dll
+C:\Users\Rheza\Documents\Visual Studio 2010\Projects\Zub App\Zub App\Phone.Controls\Bin\Debug\Phone.Controls.pdb
+C:\Users\Rheza\Documents\Visual Studio 2010\Projects\Zub App\Zub App\Phone.Controls\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Rheza\Documents\Visual Studio 2010\Projects\Zub App\Zub App\Phone.Controls\obj\Debug\Phone.Controls.g.resources
+C:\Users\Rheza\Documents\Visual Studio 2010\Projects\Zub App\Zub App\Phone.Controls\obj\Debug\Phone.Controls.dll
+C:\Users\Rheza\Documents\Visual Studio 2010\Projects\Zub App\Zub App\Phone.Controls\obj\Debug\Phone.Controls.pdb

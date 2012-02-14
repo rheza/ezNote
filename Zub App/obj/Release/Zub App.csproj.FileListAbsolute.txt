@@ -1,0 +1,14 @@
+c:\users\rheza-mac\documents\visual studio 2010\Projects\Zub App\Zub App\Bin\Release\ApplicationIcon.png
+c:\users\rheza-mac\documents\visual studio 2010\Projects\Zub App\Zub App\Bin\Release\Background.png
+c:\users\rheza-mac\documents\visual studio 2010\Projects\Zub App\Zub App\Bin\Release\Zub App.dll
+c:\users\rheza-mac\documents\visual studio 2010\Projects\Zub App\Zub App\Bin\Release\Zub App.pdb
+c:\users\rheza-mac\documents\visual studio 2010\Projects\Zub App\Zub App\Bin\Release\AppManifest.xaml
+c:\users\rheza-mac\documents\visual studio 2010\Projects\Zub App\Zub App\Bin\Release\Zub_App.xap
+c:\users\rheza-mac\documents\visual studio 2010\Projects\Zub App\Zub App\obj\Release\ResolveAssemblyReference.cache
+c:\users\rheza-mac\documents\visual studio 2010\Projects\Zub App\Zub App\obj\Release\App.g.i.cs
+c:\users\rheza-mac\documents\visual studio 2010\Projects\Zub App\Zub App\obj\Release\DetailsPage.g.i.cs
+c:\users\rheza-mac\documents\visual studio 2010\Projects\Zub App\Zub App\obj\Release\MainPage.g.i.cs
+c:\users\rheza-mac\documents\visual studio 2010\Projects\Zub App\Zub App\obj\Release\Zub App.g.resources
+c:\users\rheza-mac\documents\visual studio 2010\Projects\Zub App\Zub App\obj\Release\Zub App.dll
+c:\users\rheza-mac\documents\visual studio 2010\Projects\Zub App\Zub App\obj\Release\Zub App.pdb
+c:\users\rheza-mac\documents\visual studio 2010\Projects\Zub App\Zub App\obj\Release\XapCacheFile.xml

@@ -1,0 +1,106 @@
+﻿<phone:PhoneApplicationPage
+    x:Class="Zub_App.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+    xmlns:toolkit="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone.Controls.Toolkit"
+    mc:Ignorable="d" d:DesignWidth="480" d:DesignHeight="696" 
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait"  Orientation="Portrait"
+    shell:SystemTray.IsVisible="True"
+    toolkit:TiltEffect.IsTiltEnabled="True">
+    
+    <toolkit:TransitionService.NavigationInTransition>
+        <toolkit:NavigationInTransition>
+            <toolkit:NavigationInTransition.Backward>
+                <toolkit:TurnstileTransition Mode="BackwardIn"/>
+            </toolkit:NavigationInTransition.Backward>
+            <toolkit:NavigationInTransition.Forward>
+                <toolkit:TurnstileTransition Mode="ForwardIn"/>
+            </toolkit:NavigationInTransition.Forward>
+        </toolkit:NavigationInTransition>
+    </toolkit:TransitionService.NavigationInTransition>
+    <toolkit:TransitionService.NavigationOutTransition>
+        <toolkit:NavigationOutTransition>
+            <toolkit:NavigationOutTransition.Backward>
+                <toolkit:TurnstileTransition Mode="BackwardOut"/>
+            </toolkit:NavigationOutTransition.Backward>
+            <toolkit:NavigationOutTransition.Forward>
+                <toolkit:TurnstileTransition Mode="ForwardOut"/>
+            </toolkit:NavigationOutTransition.Forward>
+        </toolkit:NavigationOutTransition>
+    </toolkit:TransitionService.NavigationOutTransition>
+    
+    <!--Data context is set to sample data above and LayoutRoot contains the root grid where all other page content is placed-->
+    <Grid x:Name="LayoutRoot" Background="{Binding Path=Background, ElementName=root}">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" MinHeight="228"/>
+            <RowDefinition Height="0.004*"/>
+            <RowDefinition Height="0*"/>
+            <RowDefinition Height="0.996*"/>
+        </Grid.RowDefinitions>
+        
+       
+        <!--TitlePanel contains the name of the application and page title-->
+        <StackPanel x:Name="TitlePanel" Grid.Row="0" Margin="12,17,0,108">
+            <TextBlock x:Name="ApplicationTitle" Text="ezNote" Style="{StaticResource PhoneTextNormalStyle}" Height="32" Margin="0"/>
+            <TextBlock x:Name="ListTitle" Text="ezNote list" Margin="20,-20,36,0" Style="{StaticResource PhoneTextTitle1Style}" FontSize="64" Height="91"/>
+        </StackPanel>
+        <Grid x:Name="ContentPanel" Margin="12,-30,8,2" Height="489" VerticalAlignment="Bottom" Grid.RowSpan="3" Grid.Row="1">
+        	<Grid.ColumnDefinitions>
+        		<ColumnDefinition Width="0.374*"/>
+        		<ColumnDefinition Width="0.491*"/>
+        		<ColumnDefinition Width="0.135*"/>
+        	</Grid.ColumnDefinitions>
+            
+        	<ListBox x:Name="MainListBox" Margin="8,0" ItemsSource="{Binding Items}" SelectionChanged="MainListBox_SelectionChanged" RenderTransformOrigin="0.581,0.502" Grid.ColumnSpan="3" Height="489" VerticalAlignment="Bottom">
+        		<ListBox.ItemTemplate>
+        			<DataTemplate>
+        				<StackPanel Margin="0" Width="432" Height="72">
+        					<StackPanel Orientation="Horizontal" Margin="12,0,4,10">
+        						<Grid Height="43" Width="43" Margin="0,-2,0,-1">
+        							<Image Margin="6,5,5,6" Source="/Images/appbar.folder.rest.png" Stretch="Fill"/>
+        							<Path Data="M31.0176,15.9839C31.0176,24.2669,24.2986,30.9829,16.0176,30.9829C7.7306,30.9829,1.0176,24.2669,1.0176,15.9839C1.0176,7.6989,7.7306,0.981899999999998,16.0176,0.981899999999998C24.2986,0.981899999999998,31.0176,7.6989,31.0176,15.9839z" StrokeStartLineCap="Flat" Stretch="Fill" StrokeEndLineCap="Flat" Stroke="{StaticResource PhoneForegroundBrush}" StrokeMiterLimit="4" StrokeLineJoin="Miter" UseLayoutRounding="False" StrokeThickness="2.035"/>
+        						</Grid>
+        						<TextBlock Text="{Binding categoryName}" HorizontalAlignment="Left" VerticalAlignment="Top" FontFamily="{StaticResource PhoneFontFamilyLight}" FontSize="{StaticResource PhoneFontSizeExtraLarge}" Foreground="{StaticResource PhoneForegroundBrush}" TextWrapping="Wrap" LineHeight="43" Margin="17,0,5,0" Height="60" Width="308"/>
+        						<Grid Background="White" Width="42" Height="37" Margin="0">
+        							<TextBlock TextWrapping="Wrap" Text="{Binding noItems}" RenderTransformOrigin="0.5,0.5" FontSize="24" Foreground="Black" TextAlignment="Center"/>
+        						</Grid>
+        					</StackPanel>
+        				</StackPanel>
+        			</DataTemplate>
+        		</ListBox.ItemTemplate>
+        	</ListBox>
+        </Grid>
+        <Canvas HorizontalAlignment="Right" Height="75" Width="200" Margin="0,0,0,33" VerticalAlignment="Bottom">
+        	<Rectangle Height="60" Width="5" Fill="#FFF4F4F5" Canvas.Left="8" Canvas.Top="9"/>
+            <Rectangle Fill="#FFF4F4F5" Height="60" Width="5" Canvas.Left="103" Canvas.Top="9"/>
+        	<TextBlock x:Name="DueText" TextWrapping="Wrap" Text="Due" Canvas.Left="137" Canvas.Top="3" FontSize="24" FontWeight="Bold"/>
+        	<TextBlock x:Name="DueNo" TextWrapping="Wrap" Canvas.Left="149" Canvas.Top="39" Height="30" TextAlignment="Center" FontSize="24" FontWeight="Bold"/>
+        	<TextBlock x:Name="AllText" TextWrapping="Wrap" Text="All" Canvas.Left="31" FontWeight="Bold" FontSize="24" Canvas.Top="5"/>
+            <TextBlock x:Name="AllNo" TextWrapping="Wrap" Canvas.Left="41" Canvas.Top="38" Height="30" FontSize="24" TextAlignment="Center" FontWeight="Bold" Foreground="White" />
+        	<Button x:Name="AllNotesButton" Width="99" Height="74" BorderThickness="0,0,0,0" Click="all_Clicked" Foreground="White"/>
+            <Button x:Name="OverdueButton" Content="" Height="74" BorderThickness="0" Width="97" Click="due_Clicked" Canvas.Left="103"/>
+        </Canvas>
+        
+        <!--ContentPanel contains ListBox and ListBox ItemTemplate. Place additional content here-->
+    </Grid>
+
+    <!--Sample code showing usage of ApplicationBar-->
+    <phone:PhoneApplicationPage.ApplicationBar>
+        <shell:ApplicationBar IsVisible="True" IsMenuEnabled="True">
+            <shell:ApplicationBarIconButton x:Name="appbar_button1" IconUri="/Images/appbar.addfolder.rest.png" Text="Category" Click="addCategory"></shell:ApplicationBarIconButton>
+            <shell:ApplicationBarIconButton x:Name="appbar_button2" IconUri="/Images/appbar.addnote.rest.png" Text="Note" Click="addNotes"></shell:ApplicationBarIconButton>
+            <shell:ApplicationBar.MenuItems>
+                <shell:ApplicationBarMenuItem Text="Add Online ezNote"  Click="appbar_ezNote_Click"/>
+                <shell:ApplicationBarMenuItem Text="Settings"  Click="appbar_Setting_Click"/>
+            </shell:ApplicationBar.MenuItems>
+        </shell:ApplicationBar>
+    </phone:PhoneApplicationPage.ApplicationBar>
+    
+</phone:PhoneApplicationPage>

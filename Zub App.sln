@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010 Express for Windows Phone
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zub App", "Zub App\Zub App.csproj", "{5ACA8E3C-2B44-43E8-A32B-16D6F52A705C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Phone.Controls", "Zub App\Phone.Controls\Phone.Controls.csproj", "{CD17660D-E7B5-48F8-9CB4-B57A5A12EE03}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5ACA8E3C-2B44-43E8-A32B-16D6F52A705C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5ACA8E3C-2B44-43E8-A32B-16D6F52A705C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5ACA8E3C-2B44-43E8-A32B-16D6F52A705C}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{5ACA8E3C-2B44-43E8-A32B-16D6F52A705C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5ACA8E3C-2B44-43E8-A32B-16D6F52A705C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5ACA8E3C-2B44-43E8-A32B-16D6F52A705C}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{CD17660D-E7B5-48F8-9CB4-B57A5A12EE03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD17660D-E7B5-48F8-9CB4-B57A5A12EE03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD17660D-E7B5-48F8-9CB4-B57A5A12EE03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD17660D-E7B5-48F8-9CB4-B57A5A12EE03}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,66 @@
+c:\users\rheza-mac\documents\visual studio 2010\Projects\Zub App\Zub App\Bin\Debug\ApplicationIcon.png
+c:\users\rheza-mac\documents\visual studio 2010\Projects\Zub App\Zub App\Bin\Debug\Background.png
+c:\users\rheza-mac\documents\visual studio 2010\Projects\Zub App\Zub App\Bin\Debug\AppManifest.xaml
+c:\users\rheza-mac\documents\visual studio 2010\Projects\Zub App\Zub App\obj\Debug\ResolveAssemblyReference.cache
+c:\users\rheza-mac\documents\visual studio 2010\Projects\Zub App\Zub App\obj\Debug\App.g.i.cs
+c:\users\rheza-mac\documents\visual studio 2010\Projects\Zub App\Zub App\obj\Debug\DetailsPage.g.i.cs
+c:\users\rheza-mac\documents\visual studio 2010\Projects\Zub App\Zub App\obj\Debug\MainPage.g.i.cs
+c:\users\rheza-mac\documents\visual studio 2010\Projects\Zub App\Zub App\obj\Debug\XapCacheFile.xml
+C:\Users\Rheza-Mac\documents\visual studio 2010\Projects\Zub App\Zub App\obj\Debug\AddPage.g.i.cs
+C:\Users\Rheza-Mac\documents\visual studio 2010\Projects\Zub App\Zub App\Bin\Debug\Images\appbar.add.rest.png
+C:\Users\Rheza-Mac\documents\visual studio 2010\Projects\Zub App\Zub App\Bin\Debug\Images\appbar.cancel.rest.png
+C:\Users\Rheza-Mac\documents\visual studio 2010\Projects\Zub App\Zub App\Bin\Debug\Images\appbar.save.rest.png
+C:\Users\Rheza-Mac\documents\visual studio 2010\Projects\Zub App\Zub App\Bin\Debug\Images\appbar.back.rest.png
+C:\Users\Rheza-Mac\documents\visual studio 2010\Projects\Zub App\Zub App\Bin\Debug\Images\appbar.delete.rest.png
+C:\Users\Rheza-Mac\documents\visual studio 2010\Projects\Zub App\Zub App\Bin\Debug\Images\ArrowImg.png
+C:\Users\Rheza-Mac\documents\visual studio 2010\Projects\Zub App\Zub App\Bin\Debug\Images\appbar.questionmark.rest.png
+C:\Users\Rheza-Mac\Documents\Visual Studio 2010\Projects\Zub App\Zub App\Bin\Debug\Images\appbar.up.rest.png
+C:\Users\Rheza-Mac\Documents\Visual Studio 2010\Projects\Zub App\Zub App\Bin\Debug\Microsoft.Phone.Controls.Toolkit.dll
+C:\Users\Rheza-Mac\Documents\Visual Studio 2010\Projects\Zub App\Zub App\Bin\Debug\Microsoft.Phone.Controls.Toolkit.pdb
+C:\Users\Rheza-Mac\Documents\Visual Studio 2010\Projects\Zub App\Zub App\Bin\Debug\Microsoft.Phone.Controls.Toolkit.xml
+C:\Users\Rheza-Mac\documents\visual studio 2010\Projects\Zub App\Zub App\Bin\Debug\Zub App.dll
+C:\Users\Rheza-Mac\documents\visual studio 2010\Projects\Zub App\Zub App\Bin\Debug\Zub App.pdb
+C:\Users\Rheza-Mac\documents\visual studio 2010\Projects\Zub App\Zub App\Bin\Debug\Zub_App.xap
+C:\Users\Rheza-Mac\documents\visual studio 2010\Projects\Zub App\Zub App\obj\Debug\Zub App.g.resources
+C:\Users\Rheza-Mac\documents\visual studio 2010\Projects\Zub App\Zub App\obj\Debug\Zub App.dll
+C:\Users\Rheza-Mac\documents\visual studio 2010\Projects\Zub App\Zub App\obj\Debug\Zub App.pdb
+C:\Users\Rheza-Mac\Documents\Visual Studio 2010\Projects\Zub App\Zub App\obj\Debug\EditPage.g.i.cs
+C:\Users\Rheza-Mac\Documents\Visual Studio 2010\Projects\Zub App\Zub App\Bin\Debug\Images\appbar.edit.rest.png
+C:\Users\Rheza\Documents\Visual Studio 2010\Projects\Zub App\Zub App\Bin\Debug\ApplicationIcon.png
+C:\Users\Rheza\Documents\Visual Studio 2010\Projects\Zub App\Zub App\Bin\Debug\Images\appbar.add.rest.png
+C:\Users\Rheza\Documents\Visual Studio 2010\Projects\Zub App\Zub App\Bin\Debug\Images\appbar.cancel.rest.png
+C:\Users\Rheza\Documents\Visual Studio 2010\Projects\Zub App\Zub App\Bin\Debug\Images\appbar.edit.rest.png
+C:\Users\Rheza\Documents\Visual Studio 2010\Projects\Zub App\Zub App\Bin\Debug\Images\appbar.questionmark.rest.png
+C:\Users\Rheza\Documents\Visual Studio 2010\Projects\Zub App\Zub App\Bin\Debug\Images\appbar.save.rest.png
+C:\Users\Rheza\Documents\Visual Studio 2010\Projects\Zub App\Zub App\Bin\Debug\Images\appbar.back.rest.png
+C:\Users\Rheza\Documents\Visual Studio 2010\Projects\Zub App\Zub App\Bin\Debug\Images\appbar.delete.rest.png
+C:\Users\Rheza\Documents\Visual Studio 2010\Projects\Zub App\Zub App\Bin\Debug\Images\appbar.up.rest.png
+C:\Users\Rheza\Documents\Visual Studio 2010\Projects\Zub App\Zub App\Bin\Debug\Images\ArrowImg.png
+C:\Users\Rheza\Documents\Visual Studio 2010\Projects\Zub App\Zub App\Bin\Debug\Background.png
+C:\Users\Rheza\Documents\Visual Studio 2010\Projects\Zub App\Zub App\Bin\Debug\Zub App.dll
+C:\Users\Rheza\Documents\Visual Studio 2010\Projects\Zub App\Zub App\Bin\Debug\Zub App.pdb
+C:\Users\Rheza\Documents\Visual Studio 2010\Projects\Zub App\Zub App\Bin\Debug\AppManifest.xaml
+C:\Users\Rheza\Documents\Visual Studio 2010\Projects\Zub App\Zub App\Bin\Debug\Zub_App.xap
+C:\Users\Rheza\Documents\Visual Studio 2010\Projects\Zub App\Zub App\Bin\Debug\Microsoft.Phone.Controls.Toolkit.dll
+C:\Users\Rheza\Documents\Visual Studio 2010\Projects\Zub App\Zub App\Bin\Debug\Microsoft.Phone.Controls.Toolkit.pdb
+C:\Users\Rheza\Documents\Visual Studio 2010\Projects\Zub App\Zub App\Bin\Debug\Microsoft.Phone.Controls.Toolkit.xml
+C:\Users\Rheza\Documents\Visual Studio 2010\Projects\Zub App\Zub App\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Rheza\Documents\Visual Studio 2010\Projects\Zub App\Zub App\obj\Debug\App.g.i.cs
+C:\Users\Rheza\Documents\Visual Studio 2010\Projects\Zub App\Zub App\obj\Debug\DetailsPage.g.i.cs
+C:\Users\Rheza\Documents\Visual Studio 2010\Projects\Zub App\Zub App\obj\Debug\MainPage.g.i.cs
+C:\Users\Rheza\Documents\Visual Studio 2010\Projects\Zub App\Zub App\obj\Debug\AddPage.g.i.cs
+C:\Users\Rheza\Documents\Visual Studio 2010\Projects\Zub App\Zub App\obj\Debug\Zub App.g.resources
+C:\Users\Rheza\Documents\Visual Studio 2010\Projects\Zub App\Zub App\obj\Debug\Zub App.dll
+C:\Users\Rheza\Documents\Visual Studio 2010\Projects\Zub App\Zub App\obj\Debug\Zub App.pdb
+C:\Users\Rheza\Documents\Visual Studio 2010\Projects\Zub App\Zub App\obj\Debug\XapCacheFile.xml
+C:\Users\Rheza\Documents\Visual Studio 2010\Projects\Zub App\Zub App\obj\Debug\SettingPage.g.i.cs
+C:\Users\Rheza\Documents\Visual Studio 2010\Projects\Zub App\Zub App\Bin\Debug\Wintellect.Sterling.WindowsPhone.dll
+C:\Users\Rheza\Documents\Visual Studio 2010\Projects\Zub App\Zub App\obj\Debug\AddCategory.g.i.cs
+C:\Users\Rheza\Documents\Visual Studio 2010\Projects\Zub App\Zub App\obj\Debug\CategoryPage.g.i.cs
+C:\Users\Rheza\Documents\Visual Studio 2010\Projects\Zub App\Zub App\obj\Debug\ChooseCategory.g.i.cs
+C:\Users\Rheza\Documents\Visual Studio 2010\Projects\Zub App\Zub App\Bin\Debug\Phone.Controls.dll
+C:\Users\Rheza\Documents\Visual Studio 2010\Projects\Zub App\Zub App\Bin\Debug\Phone.Controls.pdb
+C:\Users\Rheza\Documents\Visual Studio 2010\Projects\Zub App\Zub App\obj\Debug\DownloadNote.g.i.cs
+C:\Users\Rheza\Documents\Visual Studio 2010\Projects\Zub App\Zub App\Bin\Debug\icons\appbar.basecircle.rest.png
+C:\Users\Rheza\Documents\Visual Studio 2010\Projects\Zub App\Zub App\obj\Debug\AllNotes.g.i.cs
+C:\Users\Rheza\Documents\Visual Studio 2010\Projects\Zub App\Zub App\obj\Debug\AllDue.g.i.cs
